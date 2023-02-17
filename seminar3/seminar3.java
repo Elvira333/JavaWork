@@ -61,6 +61,13 @@ public class seminar3 {
         matrix.add(Arrays.asList(4, 5, 6));
         matrix.add(Arrays.asList(7, 8, 9));
 
+        for (int i = 0; i < matrix.size(); i++) {
+            for (int j = 0; j < matrix.get(i).size(); j++) {
+                System.out.println("Элемент (" + i + ", " + j + "): " + matrix.get(i).get(j));
+            }
+        }
+        System.out.println(matrix.get(1));
+
         // в задаче 3 использовать instanceof, который позволяет проверять тип данных в
         // списке
 
